@@ -1,0 +1,5 @@
+site_name: The New Reality
+nav:
+  - Home: index.md
+  - About: about.md
+theme: readthedocs
