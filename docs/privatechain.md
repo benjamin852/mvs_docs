@@ -78,7 +78,9 @@ NOTE: the two Config files use a same identifier， and set its seed to the othe
 Firstly，Because the configuration file is customized, we need to place it at the default location to make it effective (if the directory does not exist then create it):
 
 Windows : `%HOMEPATH%\AppData\Roaming\Metaverse`
+
 Apple OSX : `~/Library/Application\ Support/Metaverse`
+
 Linux/Uinx: `~/.metaverse`
 
 Then，run mvsd separately on each computer

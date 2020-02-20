@@ -34,6 +34,12 @@ pages:
           - Multi-Signature: multisig-cli.md
           - Raw Tx (Offline-Sign): raw-tx-cli.md
       - Testnet: testnet.md
+      - Private Chain: privatechain.md
+  - MST:
+      - Introduction: mstintro.md
+      - MIT Register: mitresgister.md
+      - MIT Transfer: mittransfer.md
+
 theme: readthedocs
 custom_dir: "theme"
 # docs/
