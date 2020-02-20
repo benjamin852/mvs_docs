@@ -37,7 +37,11 @@ pages:
       - Private Chain: privatechain.md
   - MST:
       - Introduction: mstintro.md
-      - MIT Register: mitresgister.md
+      - MST Issuance: mstissuance.md
+      - MST Register: mstregister.md
+  - MIT:
+      - Introduction: mitintro.md
+      - MIT Register: mitregister.md
       - MIT Transfer: mittransfer.md
 
 theme: readthedocs
