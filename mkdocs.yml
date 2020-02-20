@@ -1,5 +1,42 @@
 site_name: The New Reality
-nav:
+site_author: Metaverse
+pages:
   - Home: index.md
-  - About: about.md
+  - What Is Metaverse: metaverse.md
+  - Brief Metaverse White Paper: mvswhitepaper.md
+  - Brief Avatar White Paper: avatarwhitepaper.md
+  # - Metaverse Mainnet Information: MetaverseMainnetInformation.md
+  - Metaverse Wallet:
+      - Setup: metaversewalletsetup.md
+      - Features:
+          - Create Asset: createasset.md
+          - Token Answer: assettransfer.md
+          - Pillars Features: pillarsfeatures.md
+          - Supernova:
+              Avatar: supernovaavatar.md
+              MST: mst.md
+              Certificate: certificate.md
+  - Metaverse Full Node:
+      - Full Node Intro: fullnodeintro.md
+      - Linux Installation: linuxinstallation.md
+      - Reset Metaverse Environment: resetmvsenv.md
+      - Upgrade Metaverse Environment: upgrademvsenv.md
+      - Backup Metaverse Account: backupmvs.md
+  - Metaverse Command Line:
+      - Start Running MVS-CLI: mvs-cli-start.md
+      - mvsd usage: mvsd-cli.md
+      - Commands:
+          - Account: account-cli.md
+          - Blockchain: blockchain-cli.md
+          - ETP: etp-cli.md
+          - Transaction: transaction-cli.md
+          - Asset: asset-cli.md
+          - Multi-Signature: multisig-cli.md
+          - Raw Tx (Offline-Sign): raw-tx-cli.md
+      - Testnet: testnet.md
 theme: readthedocs
+custom_dir: "theme"
+# docs/
+#     createasset.md
+#     img/
+#       ledger-struct.png
