@@ -45,6 +45,8 @@ pages:
           - Introduction: mstcertificate.md
           - Obtain Certificate: obtaincertificate.md
           - Use Certificate: usercertificate.md
+          - Query Certificate: querycertificate.md
+     - MST Burn: mstburn.md
   - MIT:
       - Introduction: mitintro.md
       - MIT Register: mitregister.md
