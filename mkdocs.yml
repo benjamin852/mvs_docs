@@ -40,6 +40,11 @@ pages:
       - MST Issuance: mstissuance.md
       - MST Seconary Issuance: mstsendaryissuance.md
       - MST Conditional Offering: mstconditionaloffering.md
+      - MST Multi Sig: mstmultisig.md
+      - MST Certificate:
+          - Introduction: mstcertificate.md
+          - Obtain Certificate: obtaincertificate.md
+          - Use Certificate: usercertificate.md
   - MIT:
       - Introduction: mitintro.md
       - MIT Register: mitregister.md
