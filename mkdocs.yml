@@ -46,11 +46,12 @@ pages:
           - Obtain Certificate: obtaincertificate.md
           - Use Certificate: usercertificate.md
           - Query Certificate: querycertificate.md
-     - MST Burn: mstburn.md
+      - MST Burn: mstburn.md
   - MIT:
       - Introduction: mitintro.md
       - MIT Register: mitregister.md
       - MIT Transfer: mittransfer.md
+      - Query MIT: mitquery.md
 
 theme: readthedocs
 custom_dir: "theme"
