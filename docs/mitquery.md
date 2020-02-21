@@ -11,3 +11,149 @@ For convenience, I’ll uniformly use Alice as account name, passwd1 as password
 With an account, if you want to issue or send an asset, you have to make sure that there is enough ETP in the account to pay fees. You can use `mvs-cli getbalance account_name password` to get the total balance of the account. You can also use `mvs-cli listbalances account_name password` to list the balance of each address in the account.
 
 You can use help to get the help information of each command. For eaxmple, use `mvs-cli help registermit` or `mvs-cli registermit -h` to get the help information of `registermit`
+
+## Query With Limits
+
+Command: `listmits`, query all registered MIT on blockchain or unspent MIT of specified account.
+
+    Usage:
+    mvs-cli listmits [-h] [ACCOUNTNAME] [ACCOUNTAUTH]
+
+    Options (named):
+    -h [--help]          Get a description and instructions for this command.
+
+    Arguments (positional):
+    ACCOUNTNAME          Account name required.
+    ACCOUNTAUTH          Account password(authorization) required.
+
+Note: If account name and password is specified, then query unspent MIT of specified account.
+
+1.  Example: query all registered MIT on blockchain：
+
+        Command:
+        $ ./mvs-cli listmits
+
+        Output:
+        {
+            "mits" :
+            [
+                {
+                    "address" : "MJevGQHGwKQGNpeJF1vDxBawxKoRZMqsRz",
+                    "content" : "Alice's MIT",
+                    "height" : 3692,
+                    "status" : "registered",
+                    "symbol" : "Alice@MIT",
+                    "time_stamp" : 1528182825,
+                    "to_did" : "Alice"
+                }
+            ]
+        }
+
+2.  Example: query unspent MIT of account Bob：
+
+            Command:
+        $ ./mvs-cli listmits Bob passwd1
+
+        Output:
+        {
+            "mits" :
+            [
+                {
+                    "address" : "MFj3WGtCxWT2BJZSJUJ9N9A3hKqCoaehaX",
+                    "content" : "Alice's MIT",
+                    "status" : "transfered",
+                    "symbol" : "Alice@MIT"
+                }
+            ]
+        }
+
+## Query with getmit
+
+Command: `getmit`, query all MIT identifiers on blockchain or registration of the specified MIT or history of the specified MIT.
+
+    Usage:
+    mvs-cli getmit [-ht] [--index value] [--limit value] [SYMBOL]
+
+    Options (named):
+    -h [--help]          Get a description and instructions for this command.
+    -c [--current] 		 Show current status of MIT, default false.
+    -t [--trace]         Tracing history, default false.
+    -i [--index]         Page index, default 1.
+    -l [--limit]         MIT count per page, default 100.
+
+    Arguments (positional):
+    SYMBOL               MIT identifier.
+
+1. Example: query all MIT identifiers on blockchain:
+
+
+        Command:
+        $ ./mvs-cli getmit
+
+        Output:
+        {
+            "mits" :
+            [
+                "Alice@MIT"
+            ]
+        }
+
+2.  Example: query registration of MIT named Alice@MIT:
+
+        Command:
+        $ ./mvs-cli getmit Alice@MIT
+
+        Output:
+        {
+            "address" : "MJevGQHGwKQGNpeJF1vDxBawxKoRZMqsRz",
+            "content" : "Alice's MIT",
+            "height" : 3692,
+            "status" : "registered",
+            "symbol" : "Alice@MIT",
+            "time_stamp" : 1528182825,
+            "to_did" : "Alice"
+        }
+
+3.  Example: query current status of MIT named Alice@MIT:
+
+        Command:
+        $ ./mvs-cli getmit Alice@MIT -c
+
+        Output:
+        {
+            "address" : "MJevGQHGwKQGNpeJF1vDxBawxKoRZMqsRz",
+            "content" : "Alice's MIT",
+            "height" : 7090,
+            "status" : "transfered",
+            "symbol" : "Alice@MIT",
+            "time_stamp" : 1528183391,
+            "to_did" : "Bob"
+        }
+
+4.  Example: query history of MIT named Alice@MIT:
+
+        Command:
+        $ ./mvs-cli getmit Alice@MIT -t
+
+        Output:
+        {
+            "mits" :
+            [
+                {
+                    "address" : "MFj3WGtCxWT2BJZSJUJ9N9A3hKqCoaehaX",
+                    "height" : 7090,
+                    "status" : "transfered",
+                    "symbol" : "Alice@MIT",
+                    "time_stamp" : 1528183391,
+                    "to_did" : "Bob"
+                },
+                {
+                    "address" : "MJevGQHGwKQGNpeJF1vDxBawxKoRZMqsRz",
+                    "height" : 3692,
+                    "status" : "registered",
+                    "symbol" : "Alice@MIT",
+                    "time_stamp" : 1528182825,
+                    "to_did" : "Alice"
+                }
+            ]
+        }
