@@ -38,7 +38,8 @@ pages:
   - MST:
       - Introduction: mstintro.md
       - MST Issuance: mstissuance.md
-      - MST Register: mstregister.md
+      - MST Seconary Issuance: mstsendaryissuance.md
+      - MST Conditional Offering: mstconditionaloffering.md
   - MIT:
       - Introduction: mitintro.md
       - MIT Register: mitregister.md
