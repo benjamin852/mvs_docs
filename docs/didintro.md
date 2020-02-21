@@ -1,0 +1,6 @@
+# Digital identity (Avatar):
+
+The digital identity is a collective name for the profile information of the account corresponding to the master private key owned by the user. It has a unique identifier in the entire network and is bound to the user's address one by one. Having a digital identity symbolizes a valid identity on the chain through which assets can be held and issued.
+Digital identities can be held by a single or multiple registrants, which cannot be forged. When multiple users jointly hold, the multi-signature address created by these users is bound. At this time, the transaction must be issued by multiple people Co-signature confirmation.
+A valid digital identity can be transferred between different addresses under the account, or it can be transferred to other accounts indirectly through a multi-signature address transferred to multiple accounts, and the historical address in the process of digital identity migration can be viewed on the chain.
+Instead of using an address, you can create a transaction with a digital identity. Transactions created with a digital identity will be verified on the chain. Sending a transaction with an invalid digital identity or sending to an invalid digital identity will be rejected

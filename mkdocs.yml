@@ -52,6 +52,10 @@ pages:
       - MIT Register: mitregister.md
       - MIT Transfer: mittransfer.md
       - Query MIT: mitquery.md
+  - Digital Identity (Avatar):
+      - DID Introduction: didintro.md
+      - DID Register: didregister.md
+      - DID Usage: didusage.md
 
 theme: readthedocs
 custom_dir: "theme"
