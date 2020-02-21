@@ -55,7 +55,9 @@ pages:
   - Digital Identity (Avatar):
       - DID Introduction: didintro.md
       - DID Register: didregister.md
-      - DID Usage: didusage.md
+      - DID Transfer: didtransfer.md
+      - DID Query: didquery.md
+      - DID Send ETP or Asset: didsendetp.md
 
 theme: readthedocs
 custom_dir: "theme"
