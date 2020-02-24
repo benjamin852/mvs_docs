@@ -36,44 +36,46 @@ Double-click the installation file and follow the prompts to complete installati
 
 After the installation is complete, the wallet shortcut icon shows up on the desktop.
 
-[PIC1]
+![Metaverse Icon](./img/metaverseicon.png)
 
 Double-click the wallet icon to enter the login page and click “Create/ Import account”.
 login
 
-[PIC2]
+![Wallet Sign In](./img/sign-in.png)
 
 Set your account name and password, then click on “Create account”.
 Create account
 
-[PIC3]
+![New Account](./img/new-account.png)
 
 Write down the backup words and click “I understand” to complete registration.
 
-[PIC4]
+![Thank You](./img/thank-you.png)
 
 ### Receiving ETP
 
 Open the wallet and click “address” at the top of the navigation bar to view your receiving addresses. Any of the addresses in your wallet can be used to receive digital currencies developed on the Metaverse public blockchain. You may choose any one of your wallet addresses as the receiving address.
-[PIC5]
+
+![Receiving ETP](./img/receiving-etp.png)
 
 ### Query transaction hashs
 
 Metaverse Wallet provides a portion of the block explorer’s functions. Users can inquire about blocks, transactions or the details of an address through querying the block’s serial number, the transaction hash and the address respectively. Each transaction produces a hash. You may view a transaction’s details via querying its transaction hash.
-[PIC6]
+
+![Query Transaction](./img/query-transactions.png)
 
 ### Sending ETP
 
 Click the “transfer” command shown next to your assets.
 
-[PIC7]
+![Send ETP](./img/send-etp.png)
 
 Fill in transfer details such as the sending and receiving address, transfer amount, transaction fee and message, then click “Send”.
 Send
 
-[PIC8]
+![ETP Transfer](./img/etp-transfer.png)
 
 After double-confirm the transaction summary, enter password and click “Send” to complete the transaction.
 Confirm
 
-[PIC9]
+![ETP Transfer Receipt](./img/etp-transfer-receipt.png)

@@ -23,12 +23,10 @@ To be listed…
 
 ## Full Node Architecture
 
-<!-- ![LedgerStruct]('./img/ledger-struct') -->
-
-[PIC0]
+![Full Node Architecture](./img/full-node-architecture.png)
 
 ## Compiling dependency
 
-<!-- ![LedgerStruct]('./img/compiling-dependency') -->
+![Compiling Dependency](./img/compiling-dependency.png)
 
 We intergrated 9 libbitcoin modules： [libbitcoin](https://github.com/libbitcoin/libbitcoin-system), [libbitcoin-explorer](https://github.com/libbitcoin/libbitcoin-explorer), [libbitcoin-database](https://github.com/libbitcoin/libbitcoin-database), [libbitcoin-blockchain](https://github.com/libbitcoin/libbitcoin-blockchain), [libbitcoin-server](https://github.com/libbitcoin/libbitcoin-server), [libbitcoin-network](https://github.com/libbitcoin/libbitcoin-network), [libbitcoin-protocol](https://github.com/libbitcoin/libbitcoin-protocol), [libbitcoin-node](https://github.com/libbitcoin/libbitcoin-node), [libbitcoin-consensus](https://github.com/libbitcoin/libbitcoin-consensus), into MVS full node with libbitcoin v2.

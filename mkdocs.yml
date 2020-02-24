@@ -10,7 +10,7 @@ nav:
       - Setup: metaversewalletsetup.md
       - Features:
           - Create Asset: createasset.md
-          - Token Answer: assettransfer.md
+          - Token Transfer: assettransfer.md
           - Pillars Features: pillarsfeatures.md
           - Supernova:
               Avatar: supernovaavatar.md

@@ -37,7 +37,7 @@ MST mining reward = 300000000 \* pow(0.95, (Current block height - Height when M
 
 #### Operations on Full Node Wallet
 
-[PIC17]
+![Operations Full Node Wallet](./img/operations-fullnode-wallet.png)
 
 #### Miner
 

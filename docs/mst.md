@@ -6,7 +6,7 @@ From Supernova, a MST can only be issued from an Avatar, so please make sure to 
 
 You now have the option to do Secondary Issue in the future. If you select this option, you, as owner and creator of this MST, will receive a certificate giving you the permission to issue more of this MST in the future, and so increase its maximum supply.
 
-[PIC25]
+![MST Create](./img/mst-create.png)
 
 You can select the secondary issue rules between 3 types:
 
@@ -20,25 +20,25 @@ Similarly to ETP, an Avatar can also be used as the recipient to send a MST.
 
 You can also decide to freeze the asset, that you are sending to yourself or to someone else. Please note that at the opposite of ETP Deposit, freeze a MST does not generate an interest.
 
-[PIC26]
+![MST Transfer](./img/mst-transfer.png)
 
 This option could for instance be used during an ICO for investors who would accept to have their MST frozen in exchange of a discount price to buy the MST.
 
 You can also decide to use one of the Attenuation model, to gradually unlock the MST at a specified frequency.
 
-[PIC27]
+![Attenuation MST](./img/attenuation-mst.png)
 
 Please make sure the model used match your expectations in the confirmation.
 
-[PIC28]
+![MST Transaction Summary](./img/mst-transaction-summary.png)
 
 You can see your frozen balance of each MST in the ‘Home’ or ‘Assets’ page
 
-[PIC29]
+![MST Balances](./img/mst-balance.png)
 
 Note that you can now also use a multi-signature address to send and receive a MST.
 
-[PIC30]
+![MST Multisig](./img/mst-multisig.png)
 
 ## Do a Secondary Issue
 
@@ -46,7 +46,7 @@ If you own the Secondary Issue certificate of an MST and match the required owni
 
 There, you can see the general information of this MST and click on Secondary Issue if the option has been specified.
 
-[PIC31]
+![MST Secondary Issue](./img/mst-secondary-issue.png)
 
 In the Secondary Issue page, you can specify which Avatar will receive the created MST and how many you want to issue. Please make sure to match the 3 conditions on the right:
 
@@ -54,18 +54,18 @@ In the Secondary Issue page, you can specify which Avatar will receive the creat
 2. The selected avatar needs to own at least the secondary issue threshold of this MST
 3. The selected avatar needs to have enough ETP to pay the transaction fee (minimum 0.0001 ETP)
 
-[PIC32]
+![MST Secondary Issue](./img/mst-secondaryissue2.png)
 
 Similarly to a MST deposit, you can choose to freeze some of the created MST following one of the Attenuation model
 
 Example with Attenuation model 1:
 
-[PIC33]
+![MST Attenuation 1](./img/mst-attenuation1.png)
 
 Example with Attenuation model 2:
 
-[PIC34]
+![MST Attenuation 2](./img/mst-attenuation2.png)
 
 Always make sure in the confirmation page that the selected model match your expectations
 
-[PIC35]
+![MST Attenuation 3](./img/mst-attenuation3.png)

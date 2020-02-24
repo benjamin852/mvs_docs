@@ -12,13 +12,13 @@ You can see your certificates per Avatar in the Avatar main page. There is 3 typ
 
 You can transfer any type of certificate from the ‘Transfer Certificate’ page
 
-[PIC36]
+![Transfer Certificate](./img/transfer-certificate.png)
 
 ## Issue a Certificate
 
 You can issue a certificate from the ‘Transfer Certificate’ page. Currently, only a Naming certificate can be issued since the Secondary Issue and Domain certificates are automatically generated at the Asset creation.
 
-[PIC37]
+![Issue Certificate](./img/issue-certificate.png)
 
 # Other
 
@@ -28,10 +28,10 @@ You can export your account to a key file via the option ‘Export to file’. T
 It can be used to import your account to this wallet (full node wallet) on another computer or after an update for instance.
 It is also compatible with the lightwallet [MyETPWallet](http://myetpwallet.com) and can be use to directly open your account in the lightwallet.
 
-[PIC38]
+![Test Account](./img/settings-account.png)
 
 ## Export your account to MyETPWallet app
 
 To export your account to the mobile application, simply click on ‘Export to app’ and scan this QRCode via MyETPWallet app. This QR Code contains your backup words encoded via your password, so your password will be asked in the app in order to decrypt it.
 
-[PIC39]
+![Export Account](./img/export-account.png)
