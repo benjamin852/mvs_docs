@@ -1,4 +1,4 @@
-# POST and MST Mining
+# PoS and MST Mining
 
 ## Download & Install v0.9.0 MPC1
 
@@ -16,7 +16,7 @@ Please follow the steps to start PoS mining:
 
 ## Operations on fullnode wallet
 
-[PIC16]
+![Full Node Operations](./img/fullnode_ops.png)
 
 ## MST Mining
 

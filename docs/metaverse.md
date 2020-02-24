@@ -6,13 +6,14 @@ The official implementation of MVS full node is [libbitcoin](https://github.com/
 
 However, here are these differences:
 
-Self-defining UTXO based smart tokens, which means users can issue their own token like what bitcoin does without any programming experience.
-Self-defining UTXO based digital identity, aim to build a digital credit system through MVS blockchain.
+1. Self-defining UTXO based smart tokens, which means users can issue their own token like what bitcoin does without any programming experience.
+2. Self-defining UTXO based digital identity, aim to build a digital credit system through MVS blockchain.
+
 As for Bitcoin, all UTXO only serves Bitcoin, but it does not restrict that the type of token must be specified. Thus, we extended this model design. We added the attachment field in the output which provides type extensions of MST so that all MST can have the same level of technical features as bitcoin without having to fork bitcoins to create their own tokens.
 
 ## UTXO Extensions
 
-![LedgerStruct]('./img/ledger-struct')
+![UTXO Extensions](./img/utxo.png)
 
 ## Modifications
 

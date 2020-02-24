@@ -1,4 +1,4 @@
-# Mit Transfer
+# MIT Transfer
 
 ## Precondition
 
