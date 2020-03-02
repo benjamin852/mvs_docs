@@ -1,3 +1,5 @@
+repo_url: https://github.com/mvs-org/metaverse
+
 site_name: The New Reality
 site_author: Metaverse
 nav:
@@ -61,9 +63,10 @@ nav:
 
 theme:
   name: "material"
-  nav_style: dark
   favicon: "./img/favicon.jpg"
 
-custom_dir: "theme"
-# plugins: -search
+  feature:
+    tabs: true
 
+markdown_extensions:
+  - pymdownx.critic

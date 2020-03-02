@@ -1,5 +1,8 @@
 # Abstract
 
+!!! warning
+Smart Contract upgradeability is an active area of research. There are many important questions, and risks related to smart contract upgradeability. Do your research into the state of the art. We welcome discussion on the [related issue](https://github.com/ConsenSys/smart-contract-best-practices/issues/164).
+
 Metaverse is a blockchain project that provides a foundational infrastructure for social and enterprise needs. Our goal is to construct a universe where digital assets (Metaverse Smart Token, or MST) and digital identities (Avatar) build the basis for asset transactions with the help of a value intermediary (Oracle), thus establishing a new blockchain ecosystem that will transform human society and allow us to enter the New Reality.
 
 Unlike other blockchain projects that use technology as an entry point, Metaverse started from an enterprise value creation perspective, with the relationships between people, people and assets as the core foundations of our project. We describe this relationship through the use of BISC (Built-in Smart Contract), which can reduce the technical risks of commercial applications during development and usage.
