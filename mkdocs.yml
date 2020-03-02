@@ -61,7 +61,8 @@ nav:
 
 theme:
   name: "material"
-  favicon: "assets/favicon.png"
+  nav_style: dark
+  favicon: "./img/favicon.jpg"
 
 custom_dir: "theme"
 # plugins: -search
